@@ -1,6 +1,5 @@
 <div ng-app="app">
   <div ng-controller="exampleCtrl">
-    <li ng-repeat="task in tasks">{{ task }}</li>
-    <p><input ng-model="tasks[0]"></p>
+    <li ng-repeat="task in tasks" ng-click="alertMe(task)"><input ng-model="task">{{ task }}</li>
   </div>
 </div>
