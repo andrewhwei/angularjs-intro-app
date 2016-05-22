@@ -1,7 +1,6 @@
 <div ng-app="app">
   <div ng-controller="exampleCtrl">
-    <p>{{ task1 }} <input ng-model="task1"></p>
-    <p>{{ task2 }}</p>
-    <p>{{ task3 }}</p>
+    <li ng-repeat="task in tasks">{{ task }}</li>
+    <p><input ng-model="tasks[0]"></p>
   </div>
 </div>
