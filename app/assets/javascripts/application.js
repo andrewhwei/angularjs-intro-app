@@ -12,6 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular.min.js
+//= require angular.min
 //= require app
 //= require_tree .
